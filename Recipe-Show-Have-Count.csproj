@@ -15,9 +15,6 @@
 		<ProjectReference Include="..\Base-Mod\Base-Mod.csproj">
 			<Private>false</Private>
 		</ProjectReference>
-		<ProjectReference Include="..\Recipe-Available-Input-Count\Recipe-Available-Input-Count.csproj">
-			<Private>false</Private>
-		</ProjectReference>
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="Assembly-CSharp">

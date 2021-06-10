@@ -1,15 +1,10 @@
 ﻿using Base_Mod;
 using JetBrains.Annotations;
 
-namespace XMod {
+namespace Recipe_Show_Have_Count {
     [UsedImplicitly]
     public class Plugin : BaseGameMod {
-        protected override string ModName => "Recipe-Show-Have-Count";
-
-        protected override void Init() {
-            Recipe_Available_Input_Count.Plugin.showAmountOfCurrentItem = true;
-
-            base.Init();
-        }
+        protected override string ModName    => "Recipe-Show-Have-Count";
+        protected override bool   UseHarmony => true;
     }
 }
