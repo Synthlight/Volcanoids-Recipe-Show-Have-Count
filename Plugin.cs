@@ -4,7 +4,6 @@ using JetBrains.Annotations;
 namespace Recipe_Show_Have_Count {
     [UsedImplicitly]
     public class Plugin : BaseGameMod {
-        protected override string ModName    => "Recipe-Show-Have-Count";
-        protected override bool   UseHarmony => true;
+        protected override bool UseHarmony => true;
     }
 }

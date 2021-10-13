@@ -1,4 +1,7 @@
 {
     "LoadGroup": 0,
-    "Version": "1.0"
+    "Version": "1.0",
+    "UniqueModId": "Recipe-Show-Have-Count",
+    "Title": "Show Recipe Item Amount In Storage",
+    "MultiplayerMode": 2
 }
